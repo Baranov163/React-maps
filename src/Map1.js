@@ -1,6 +1,7 @@
 import React from "react";
 import { Map, TileLayer } from "react-leaflet";
 import './Map.css';
+import { useGeolocated } from "react-geolocated";
 
 class MapComponent extends React.Component {
   state = {
